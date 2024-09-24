@@ -1,13 +1,8 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: black;
-    margin: 0;
-}
-
-canvas {
-    border: 2px solid yellow;
-    background-color: navy;
-}
+</style>
+    </head>
+    <body>
+        <div id="t">Doodle for 30th Anniversary of PAC-MAN</div>
+        <div id="st">Google homepage, May 21, 2010</div>
+        <div id="c">
+            <iframe id="i" src="/logos/2010/pacman10-hp.html#bg=black&amp;autoplay"></iframe>
+        </div>
