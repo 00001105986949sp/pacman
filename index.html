@@ -1,14 +1,43 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Pac-Man Doodle</title>
-</head>
-<body>
-    <canvas id="gameCanvas" width="400" height="400"></canvas>
-    <audio id="gameMusic" src="music.mp3" loop></audio>
-    <script src="script.js"></script>
-</body>
-</html>
+<html>
+    <head>
+        <title>Pacman Doodle</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <style>
+            body {
+                margin: 0;
+                background-color: black;
+                color: white;
+                font-family: 'HelveticaNeue-Medium',HelveticaNeue,Helvetica,Arial;
+                font-size: 16px;
+                font-weight: lighter;
+                overflow: hidden
+            }
+
+            body, html, #c {
+                height: 100%
+            }
+
+            #t {
+                padding: 9px 0 5px 12px
+            }
+
+            #st {
+                padding-left: 12px;
+                padding-bottom: 18px;
+                font-family: 'HelveticaNeue-Light',HelveticaNeue,Helvetica,Arial;
+                font-size: 13px;
+                color: #878787;
+                font-weight: lighter;
+                border-bottom: solid 1px #222
+            }
+
+            #c {
+                overflow: hidden
+            }
+
+            #i {
+                width: 484px;
+                height: 200%;
+                -webkit-transform-origin: 0 0;
+                border: none
+            }
